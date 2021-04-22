@@ -1,0 +1,202 @@
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    text-decoration: none;
+    font-family: arial, sans-serif;
+  }
+  
+  body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    margin-right: 20px;
+    margin-top: 14px;
+  }
+  
+  nav a {
+    font-size: 13px;
+    display: inline-block;
+    line-height: 24px;
+    font-weight: 400;
+    color: #000000;
+    cursor: pointer;
+    padding: 6px;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  nav img {
+    width: 36px;
+    padding: 6px;
+    margin: auto 7px;
+    cursor: pointer;
+  }
+  
+  nav img:hover {
+    background-color: #e4e4e4;
+    border: 1px;
+    border-radius: 50px;
+  }
+  
+  nav button {
+    height: 36px;
+    width: 140px;
+    border: none;
+    font-size: 15px;
+    font-weight: 300;
+    background: #2576fa;
+    color: #ffffff;
+    border-radius: 5px;
+    margin-left: 7px;
+    cursor: pointer;
+  }
+  
+  nav button:hover {
+    background: #3783fd;
+  }
+  
+  .section-1 {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    margin-top: 40px;
+  }
+  
+  .section-1 .logo {
+    display: block;
+    margin: 0px auto;
+    margin-top: 107px;
+    margin-bottom: 20px;
+  }
+  
+  .s-box {
+    width: 585px;
+    margin: 0px auto;
+    position: relative;
+    margin-top: -8px;
+    text-align: center;
+  }
+  
+  .s-box .s-input {
+    display: block;
+    border: 1px solid #dddddd;
+    color: #000000de;
+    font-size: 16px;
+    padding: 13px;
+    padding-left: 45px;
+    padding-right: 85px;
+    border-radius: 25px;
+    width: 100%;
+    outline: none;
+  }
+  
+  .s-box .s-input:hover {
+    -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.05), 0 0 3px rgba(0, 0, 0, 0.05), 0 0 4px rgba(0, 0, 0, 0.05), 0 0 5px rgba(0, 0, 0, 0.05), 0 0 6px rgba(0, 0, 0, 0.05);
+            box-shadow: 0 0 2px rgba(0, 0, 0, 0.05), 0 0 3px rgba(0, 0, 0, 0.05), 0 0 4px rgba(0, 0, 0, 0.05), 0 0 5px rgba(0, 0, 0, 0.05), 0 0 6px rgba(0, 0, 0, 0.05);
+  }
+  
+  .s-box .search-button {
+    width: 20px;
+    opacity: .4;
+    position: absolute;
+    top: 13px;
+    left: 14px;
+  }
+  
+  .s-box .mic-button {
+    width: 14px;
+    position: absolute;
+    top: 13px;
+    right: 24px;
+  }
+  
+  .s-box .keyboard-icon {
+    width: 20px;
+    position: absolute;
+    top: 13px;
+    right: 60px;
+  }
+  
+  .s-btn {
+    border: 1px solid transparent;
+    padding: 9px 15px;
+    background-color: #f1f1f17c;
+    color: #000000de;
+    font-size: 14px;
+    border-radius: 4px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 28px;
+    outline: none;
+    cursor: pointer;
+    -webkit-transition: border-color 100ms;
+    transition: border-color 100ms;
+  }
+  
+  .s-btn:hover {
+    -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.05), 0 0 3px rgba(0, 0, 0, 0.05), 0 0 4px rgba(0, 0, 0, 0.05), 0 0 5px rgba(0, 0, 0, 0.05), 0 0 6px rgba(0, 0, 0, 0.05);
+            box-shadow: 0 0 2px rgba(0, 0, 0, 0.05), 0 0 3px rgba(0, 0, 0, 0.05), 0 0 4px rgba(0, 0, 0, 0.05), 0 0 5px rgba(0, 0, 0, 0.05), 0 0 6px rgba(0, 0, 0, 0.05);
+  }
+  footer {
+    background: #f2f2f2;
+  }
+  
+  footer h4 {
+    color: rgba(0, 0, 0, 0.54);
+    font-size: 16px;
+    line-height: 39.5px;
+    font-weight: 400;
+    padding-left: 29px;
+    border: 1px solid #eee;
+  }
+  
+  footer a {
+    color: #5f6368;
+    display: inline-block;
+    padding: 12px 11.3px;
+    font-size: 14px;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  .links {
+    border-top: 1px solid #ddd;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  .link-1 {
+    padding-left: 18.7px;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+  
+  .link-2 {
+    padding-right: 18.7px;
+  }
+  /*# sourceMappingURL=main.css.map */
